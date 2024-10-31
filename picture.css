@@ -1,0 +1,21 @@
+.pic {
+    height: 700px;
+    width: 80vw;
+    justify-content: center;
+    top: 900px;
+  }
+  
+  .pic2 {
+    justify-content: center;
+  }
+  
+  .logo {
+    border-radius: 0%;
+    height: 111px;
+    width: 111px;
+    text-align: left;
+    -webkit-box-reflect: right 111px;
+    z-index: 1;
+  }
+  
+  

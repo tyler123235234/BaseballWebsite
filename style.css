@@ -1,0 +1,74 @@
+* {
+    background-color: lightblue;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .des {
+    color: black;
+  }
+  
+  .title {
+    color: black;
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+  
+  }
+  
+  .anim {
+    overflow: hidden;
+  }
+  
+  .navi {
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    position: absolute;
+    width: 100vw;
+    margin: auto;
+  }
+  
+  #header {
+    text-align: center;
+    position: fixed;
+  }
+  
+  .divider {
+    height: 34px;
+  }
+  
+  header {
+    text-align: auto;
+    font-size: 30px;
+  }
+  
+  .nav-link {
+    align-items: center;
+  }
+  
+  li,
+  section {
+    text-align: center;
+  }
+  
+  .invs {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .navi {
+      font-size: 2rem;
+    }
+  }
+  
